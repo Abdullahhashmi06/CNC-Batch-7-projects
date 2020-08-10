@@ -49,36 +49,7 @@
 	<![endif]-->
 
 	</head>
-	<body>
-
-	<!-- <nav id="colorlib-main-nav" role="navigation">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
-		<div class="js-fullheight colorlib-table">
-			<div class="colorlib-table-cell js-fullheight">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="form-group">
-							<input type="text" class="form-control" id="search" placeholder="Enter any key to search...">
-							<button type="submit" class="btn btn-primary"><i class="icon-search3"></i></button>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<ul>
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="services.html">Services</a></li>
-							<li><a href="work.html">Work</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</nav> -->
-	
+	<body>	
 	<div id="colorlib-page">
 		<header>
 			<div class="container">
@@ -210,6 +181,7 @@
 								<div class="display-t">
 									<div class="work-name">
 										<h2>Form Validator</h2>
+										<small>Click to Open</small>
 									</div>
 								</div>
 							</a>
@@ -217,6 +189,7 @@
 								<div class="desc">
 									<p class="lead">The above picture is of my first assignment, the form validator. I used <span id="dots">...</span><span id="more" class="more lead"> html, css and bootstrap 4 for it's styling and then I added the javascript to make the form functional.</span></p>
 									<button onclick="readMore(), readLess()" id="moreBtn">Read more</button>
+									<button class="git" onclick='openURL("https://github.com/Abdullahhashmi06/CNC-Batch-7-projects/tree/master/Form-Validate");'>Git Hub Repository Link</button>
 								</div>
 							</div>
 							<!-- <script>
@@ -235,7 +208,7 @@
 						<div class="col-md-12 col-pb-sm">
 							<h1 class="display-4 letsTalk">Let's Talk</h1>
 							<p>A small river named Duden flows by their place and supplies.</p>
-							<p><a>abdullahhashmi06@gmail.com</a></p>
+							<p></p>
 							<p class="colorlib-social-icons">
 								<a href="https://www.facebook.com/abdullah.hashmi.902"><i class="icon-facebook4"></i></a>
 								<a class="ml-5" href="https://github.com/abdullahhashmi06"><i class="icon-github"></i></a>
@@ -293,6 +266,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			dots.classList.add("removeDots");
 			moreBtn.classList.remove("more");
 		}	
+		function openURL(url){window.open(url);}
 	</script>
 
 	</body>

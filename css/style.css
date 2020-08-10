@@ -59,6 +59,20 @@ a {
   transition: ease 2s;
 }
 
+.git {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: ease 2s;
+}
+
+.git:hover {
+  transition: ease 2s;
+  color: white;
+  background-color: black;
+  border: none;
+}
+
 #moreBtn:hover {
   transition: ease 2s;
   color: white;
