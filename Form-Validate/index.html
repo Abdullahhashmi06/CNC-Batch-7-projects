@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Sign Up</h1>
+                    <form id='form' onSubmit="">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="lead">User Name</label>
+                            <input id="name" class="form-control" aria-describedby="emailHelp" />
+                            <small class="errorMessage" id="error">Name should not be less than 3 characters!</small>
+                        </div>  
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="lead">Email</label>
+                            <input id="email" class="form-control" aria-describedby="emailHelp" />
+                            <small class="errorMessage" id="error2">Enter a valid Email!</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="lead">Password</label>
+                            <input type="password" id="password" class="form-control" aria-describedby="emailHelp" />
+                            <small class="errorMessage" id="error3">Password should not be less 6 characters!</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="lead">Confirm Password</label>
+                            <input type="password" id="confPass" class="form-control" aria-describedby="emailHelp" />
+                            <small class="errorMessage" id="error4">Invalid Password!</small>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
